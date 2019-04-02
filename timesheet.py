@@ -5,6 +5,7 @@ import os
 
 class Timesheet(object):
     def __init__(self):
+        # CHANGE LINE BELOW TO YOUR DIRECTORY
         self.root = 'G:\My Drive\Timesheets\\'  # Root dir only usable on John Carlee's work desktop on Fridays
         self.today = datetime.datetime.now()    # Set 'today' to current date
 
