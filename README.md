@@ -1,19 +1,20 @@
 # timesheet
 
+**THIS SCRIPT IS NO LONGER USED OR UPDATED**
+
 Utility to create weekly timesheets.
 
 
 ## Author
 **John Carlee** - [Email me](mailto:JCarlee@gmail.com)
 
-I am 9 year veteran in the Geographic Information Science and Cartography space. **I am currently looking for new job 
-opportunities leveraging my GIS skills with a heavy focus on Python development.**
+I am 9 year veteran in the Geographic Information Science and Cartography space.
 
 
 ## Motivation
-I hate filling out timesheets, you hate filling out timesheets, they suck. I pulled together this script to create
+I hate filling out timesheets, you hate filling out timesheets. I pulled together this script to create
 the excel timesheet from the past week each Friday. No values in the xlsx are changed, because it would remove the
-formatting. 
+formatting.
 
 
 
