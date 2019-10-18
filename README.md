@@ -4,7 +4,7 @@ Utility to create weekly timesheets.
 
 
 ## Author
-**John Carlee** - JCarlee@gmail.com
+**John Carlee** - [Email me](mailto:JCarlee@gmail.com)
 
 I am 9 year veteran in the Geographic Information Science and Cartography space. **I am currently looking for new job 
 opportunities leveraging my GIS skills with a heavy focus on Python development.**
