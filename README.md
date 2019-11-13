@@ -8,13 +8,9 @@ Utility to create weekly timesheets.
 ## Author
 **John Carlee** - [Email me](mailto:JCarlee@gmail.com)
 
-I am 9 year veteran in the Geographic Information Science and Cartography space.
-
 
 ## Motivation
-I hate filling out timesheets, you hate filling out timesheets. I pulled together this script to create
-the excel timesheet from the past week each Friday. No values in the xlsx are changed, because it would remove the
-formatting.
+Timesheets suck. I pulled together this script to create the excel timesheet from the past week each Friday. No values in the xlsx are changed, because it removes formatting.
 
 
 
