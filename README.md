@@ -1,31 +1,46 @@
-# timesheet
+# Timesheet Utility
 
-**THIS SCRIPT IS NO LONGER USED OR UPDATED**
+**This project does not receive updates.**
 
 Utility to create weekly timesheets.
+## Overview
 
+This utility generates a new Excel timesheet for the current week based on the previous week's file. It also archives old timesheets and associated PDF files into a designated folder.
 
-## Author
-**John Carlee** - [Email me](mailto:JCarlee@gmail.com)
+---
 
+## Features
 
-## Motivation
-Timesheets suck. I pulled together this script to create the excel timesheet from the past week each Friday. No values in the xlsx are changed, because it removes formatting.
+- Automatically creates a new timesheet for the current week.
+- Archives old timesheets and PDF files.
+- Simple and lightweight script.
 
+---
 
+## Requirements
 
-## Dependencies
-* Python 3
-* os
-* datetime
-* shutil
+- **Python 3**
+- Modules: `os`, `datetime`, `shutil`, `logging`
 
-## Getting Started
-Working directory is hardcoded to "G:\My Drive\Timesheets" making this tool only functional if you change line 9.
+---
 
-### Scheduling
+## Setup
 
-Schedule to run on the first day of every month at 9:00 AM CDT.
+### 1. Update the Root Directory
+The working directory is hardcoded to `G:\My Drive\Timesheets`. Update this path in the script (`line 9`) to match your desired directory.
+
+### 2. Install Dependencies
+Ensure Python 3 is installed. The required modules (`os`, `datetime`, `shutil`, `logging`) are part of the Python standard library, so no additional installation is needed.
+
+---
+
+## Usage
+
+### Running the Script
+1. Open a terminal or command prompt.
+2. Run the script using:
+   ```bash
+   python timesheet.pySchedule to run on the first day of every month at 9:00 AM CDT.
 * Type "Task Scheduler" into windows search bar
 * Open Task Scheduler
 * Under **Actions** side bar, select *Create Basic Task*
